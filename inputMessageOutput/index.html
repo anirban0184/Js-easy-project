@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input </title>
+</head>
+<body>
+
+    <h1>show input value</h1>
+    
+ 
+
+        <input  type="text" name="" id="text">
+
+        <button type="submit" value="submit" id="submit">click me </button>
+
+
+    <script>
+        let submit = document.querySelector("#submit");
+        let input = document.querySelector("#text");
+        submit.addEventListener("click", function() {
+
+        document.querySelector("h1").innerHTML = input.value;
+            console.log(input);
+            input.value = "";
+        });
+    </script>
+</body>
+</html>
