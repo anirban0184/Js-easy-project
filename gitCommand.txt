@@ -1,0 +1,36 @@
+credential Meneger = change the computer git user
+.... git remote add origin url
+1. git init (for first Time of git push)
+2. cd ../
+3. ls (show all folder and files )
+4. clear
+5. git add . (selected folder just will stage)
+6. git status
+7. myFolder
+8. touch
+9. git add --all / git add -A
+10. git reset
+11. git add * (Deleted file/folder k stage a tule na)
+12. git add *.txt (only .txt extension file gulak stage a nibe )
+13. git reset HEAD~ (Back form git add to)
+============================================
+Git Remove
+============================================
+14. git reset --hard
+15. git rm tow.txt (remove file and take it stage)
+16. git rm two.txt -f (aftr change force remove file)
+17. git rm -r folder-name (delete all the file if have folder under the folder)
+============================================
+Branching with git
+============================================
+1. git branch (show branch status)
+2. git branch branch-name
+3. git checkout branch-name (Changed Branch)
+============================================
+File Merge
+============================================
+1. git merge main(merge-brance-name) -m "comment here"
+2. git push origin branch-name
+3. git fetch (only take change status of online to local) 
+to get file need to git merge
+4. git pull
