@@ -1,4 +1,3 @@
-window.addEventListener("load", calculateTime);
 function calculateTime() {
   let date = new Date();
   let day = date.getDay();
@@ -19,4 +18,5 @@ function calculateTime() {
 
   
 }
-setTimeout(calculateTime,1);
+// setTimeout(calculateTime,1);
+setInterval(calculateTime, 1000);
