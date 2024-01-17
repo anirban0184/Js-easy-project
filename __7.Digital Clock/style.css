@@ -1,0 +1,27 @@
+body {
+  overflow: hidden;
+  background-color: aliceblue;
+}
+.container {
+  border: 1px solid #000;
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.digitalClock {
+  border: 1px solid #000;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  border-radius: 2px;
+  color: #fff;
+  background: #000;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
