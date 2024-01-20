@@ -1,4 +1,5 @@
 credential Meneger = change the computer git user
+git clone url
 .... git remote add origin url
 1. git init (for first Time of git push)
 2. cd ../
