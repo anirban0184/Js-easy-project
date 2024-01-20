@@ -35,3 +35,5 @@ File Merge
 3. git fetch (only take change status of online to local) 
 to get file need to git merge
 4. git pull
+5.
+
